@@ -1,25 +1,25 @@
 #!/bin/bash
 
 # admin
-# apt-get install cron-apt
-apt-get install debian-goodies
-apt-get install apt-file
-apt-get install npm
+# /opt/bin/apt-get-install.sh cron-apt
+/opt/bin/apt-get-install.sh debian-goodies
+/opt/bin/apt-get-install.sh apt-file
+/opt/bin/apt-get-install.sh npm
 
-apt-get install alien
-apt-get install lshw
-apt-get install lshw-gtk
-# apt-get install wine
-# apt-get install kvm
+/opt/bin/apt-get-install.sh alien
+/opt/bin/apt-get-install.sh lshw
+/opt/bin/apt-get-install.sh lshw-gtk
+# /opt/bin/apt-get-install.sh wine
+# /opt/bin/apt-get-install.sh kvm
 # apt-get -t wheezy-backports install qemu-system-x86
 
-apt-get install autofs
-apt-get install udftools
-apt-get install cryptsetup
-apt-get install jmtpfs
+/opt/bin/apt-get-install.sh autofs
+/opt/bin/apt-get-install.sh udftools
+/opt/bin/apt-get-install.sh cryptsetup
+/opt/bin/apt-get-install.sh jmtpfs
 
-apt-get clamav
-apt-get clamav-daemon
-apt-get install rkhunter
-apt-get install lynis
-apt-get install debsums
+/opt/bin/apt-get-install.sh clamav
+/opt/bin/apt-get-install.sh clamav-daemon
+/opt/bin/apt-get-install.sh rkhunter
+/opt/bin/apt-get-install.sh lynis
+/opt/bin/apt-get-install.sh debsums
